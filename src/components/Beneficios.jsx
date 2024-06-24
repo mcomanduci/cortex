@@ -15,7 +15,7 @@ function Beneficios() {
         routine cleanings and fillings to advanced cosmetic and restorative
         procedures
       </p>
-      <div className="grid grid-cols-3 gap-y-10">
+      <div className="grid grid-cols-3 gap-y-10 overflow-x-auto">
         <BeneficiosCard />
         <BeneficiosCard />
         <BeneficiosCard />
