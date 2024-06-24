@@ -1,4 +1,6 @@
 import Beneficios from "./Beneficios";
+import Clientes from "./Clientes";
+import Depoimentos from "./Depoimentos";
 import Header from "./Header";
 import Helper from "./Helper";
 import Hero from "./Hero";
@@ -13,6 +15,9 @@ function App() {
       <Hero />
       <Servicos />
       <Helper />
+      <Beneficios />
+      <Clientes />
+      <Depoimentos />
     </>
   );
 }
