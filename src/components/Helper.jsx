@@ -3,14 +3,14 @@ import helperImg from "/img/helper.jpg";
 
 function Helper() {
   return (
-    <div className="bg-bg-1 py-16">
-      <section className="max-w-site mx-auto flex">
-        <div className="max-w-[735px]">
+    <div className="bg-bg-1 py-8 lg:py-16">
+      <section className="max-w-site mx-auto lg:space-x-24 lg:flex px-4 md:px-8 2xl:px-0">
+        <div className="lg:max-w-[735px]">
           <img src={helperImg} alt="" />
         </div>
-        <div className="ml-24 max-w-[607px] space-y-20">
+        <div className="max-w-[607px] space-y-10 lg:space-y-20">
           <div className="space-y-4">
-            <h2 className="text-4xl text-primary-2 font-semibold">
+            <h2 className="text-3xl lg:text-4xl text-primary-2 font-semibold lg:mt-0 mt-6">
               Nós podemos te ajudar a ter uma boa recuperação
             </h2>
             <p className="text-[#355575] font-roboto">

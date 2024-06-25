@@ -1,17 +1,27 @@
-import beneficios from "/img/beneficios.png";
+import img from "/img/bene.jpg";
 
-function BeneficiosCard() {
+function BeneficiosCard({ left }) {
   return (
-    <div className="bg-blue-50 w-[404px] h-[595px] pt-[35px] px-[34px] flex flex-col items-center rounded-3xl text-primary-2">
-      <div className="w-[250px] mb-12">
-        <img src={beneficios} alt="Icone" />
+    <div
+      className={`flex max-w-[1000px] mx-auto ${
+        left
+          ? "flex-row-reverse bg-gradient-to-br from-primary-1 to-primary-2"
+          : "flex-row"
+      }`}
+    >
+      <div className="max-w-[50%] hidden lg:block">
+        <img src={img} alt="Icone" />
       </div>
-      <h3 className="text-2xl font-bold text-center mb-8">Alívio da Dor</h3>
-      <p className="font-roboto text-center">
-        Técnicas como massagem terapêutica, exercícios de alongamento e
-        fortalecimento, eletroterapia, ultrassom e calor ajudam a reduzir a dor
-        em condições agudas e crônicas.
-      </p>
+      <div className={`p-4 ${left ? "text-right" : "text-left"}`}>
+        <h3 className={`text-xl lg:text-2xl font-bold mb-2 ${left ? 'text-white' : 'text-primary-2'}`}>
+          Alívio da Dor
+        </h3>
+        <p className={`text-sm lg:text-base font-roboto ${left ? 'text-gray-100' : 'text-[#355575]'}`}>
+          Técnicas como massagem terapêutica, exercícios de alongamento e
+          fortalecimento, eletroterapia, ultrassom e calor ajudam a reduzir a
+          dor em condições agudas e crônicas.
+        </p>
+      </div>
     </div>
   );
 }

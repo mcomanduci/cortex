@@ -29,7 +29,7 @@ export default function Swipper() {
             <div className="flex">
               <div className="w-[60px] h-[60px] bg-[#d9d9d9] rounded-full"></div>
               <div className="pl-4">
-                <h3 className="text-primary-2 text-2xl font-bold">
+                <h3 className="text-primary-2 text-xl md:text-2xl font-bold">
                   {item.name}
                 </h3>
                 <span className="font-roboto text-lg text-[#355575]">
@@ -37,7 +37,7 @@ export default function Swipper() {
                 </span>
               </div>
             </div>
-            <p className="text-lg text-[#355575] font-roboto">{item.text}</p>
+            <p className="md:text-lg text-[#355575] font-roboto">{item.text}</p>
           </div>
         </SwiperSlide>
       ))}

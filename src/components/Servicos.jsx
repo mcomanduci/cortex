@@ -11,7 +11,7 @@ function Servicos() {
         adipiscing commodo elit at. Pretium fusce id velit ut tortor pretium
         viverra suspendisse potenti.
       </p>
-      <div className="grid grid-cols-3 gap-y-16 mb-16 overflow-x-auto">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 justify-center gap-6 lg:gap-16 mb-16 overflow-x-auto lg:px-20">
         <ServicosCard />
         <ServicosCard />
         <ServicosCard />

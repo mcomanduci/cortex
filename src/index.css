@@ -8,6 +8,13 @@
   padding-bottom: 60px;
 }
 
+@media (max-width: 768px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+  }
+}
+
 .hamburger {
   cursor: pointer;
   width: 24px;
