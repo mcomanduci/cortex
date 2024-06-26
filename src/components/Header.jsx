@@ -12,7 +12,7 @@ function Header() {
   }
 
   return (
-    <div className="bg-white md:sticky top-0 border-b-2 border-bg-1">
+    <div className="bg-white md:sticky top-0 border-b-2 border-bg-1 relative z-20">
       <header className="max-w-site mx-auto h-24 flex justify-between items-center px-4 md:px-8 2xl:px-0">
         <div
           className={`max-w-[200px] md:max-w-[260px] z-50 ${
@@ -51,7 +51,7 @@ function Header() {
 
         <ul
           id="menu"
-          className={`fixed inset-0 z-20 flex-col items-center self-end w-full h-full m-h-screen px-6 py-1 pt-32 pb-4 tracking-widest font-semibold text-white text-lg gap-12 uppercase divide-y divide-gray-500 opacity-95 bg-primary-2 ${
+          className={`fixed inset-0 z-1000 flex-col items-center self-end w-full h-full m-h-screen px-6 py-1 pt-32 pb-4 tracking-widest font-semibold text-white text-lg gap-12 uppercase divide-y divide-gray-500 opacity-95 bg-primary-2 ${
             menuOpen ? "" : "hidden"
           }`}
         >

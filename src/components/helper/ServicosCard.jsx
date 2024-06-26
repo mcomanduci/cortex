@@ -1,4 +1,3 @@
-import Teste from "../Icons/Teste";
 import img from "/img/clientes.jpg";
 
 function ServicosCard() {

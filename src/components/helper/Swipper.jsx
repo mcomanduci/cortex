@@ -15,7 +15,6 @@ export default function Swipper() {
         1400: { slidesPerView: 3 },
       }}
       spaceBetween={20}
-      loop={true}
       pagination={{
         clickable: true,
       }}

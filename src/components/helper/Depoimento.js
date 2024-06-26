@@ -27,4 +27,11 @@ export const data = [
     role: "Marketolog",
     text: "A clínica superou minhas expectativas. O tratamento personalizado fez toda a diferença na minha recuperação. Excelente serviço!",
   },
+  {
+    id: 4,
+    name: "Teresa Silva",
+    img: "https://randomuser.me/api/portraits",
+    role: "Marketolog",
+    text: "A clínica superou minhas expectativas. O tratamento personalizado fez toda a diferença na minha recuperação. Excelente serviço!",
+  },
 ];

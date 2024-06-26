@@ -8,7 +8,7 @@
   padding-bottom: 60px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .swiper-button-next,
   .swiper-button-prev {
     display: none;
